@@ -1,7 +1,7 @@
-Tweet Generator and Snakes & Ladders Game using Markov Chains and Generic Coding
+# Tweet Generator and Snakes & Ladders Game using Markov Chains and Generic Coding
 This project combines a Tweet Generator using Markov Chains with an implementation of the classic Snakes and Ladders game. The Tweet Generator predicts the likelihood of words or phrases based on the previous ones using Markov Chains, and the Snakes and Ladders game provides an interactive gaming experience. This project was part of my BSc. studies.
 
-Files:
+# Files:
 1. CMakeLists.txt: Configuration file used by the CMake build system to specify project details and build instructions.
 2. justdoit_tweets.txt: A text file containing a dataset of tweets, likely used as a source for generating new tweets.
 3. linked_list.c: Implementation of a linked list data structure.
@@ -13,11 +13,12 @@ Files:
 10. snakes_and_ladders.c: Implementation of a snakes and ladders game, possibly unrelated to the main purpose of tweet generation.
 11. tweets_generator.c: The main program file responsible for generating new tweets using the Markov chain algorithm and the provided dataset.
 
-Usage:
+# Usage:
 Ensure CMake is installed.
 Build the project using the provided makefile.
 Run the tweets_generator executable for generating tweets.
 Run the snakes_and_ladders executable for playing the Snakes and Ladders game.
-Acknowledgments:
+
+# Acknowledgments:
 This project was created as part of a Natural Language Processing assignment, encompassing both a Tweet Generator and an interactive Snakes and Ladders game. The Tweet Generator utilizes Markov Chains for tweet generation, while the game provides a nostalgic gaming experience.
 
